@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>day la tieu de</h1>
+    <br>
+    <select id="nuoc">
+        <option value="nuoc_suoi" >nuoc suoi</option>
+        <option value="coca_cola" >coca cola</option>
+        <option value="7_up" >7 up</option>
+        <option value="pessi" >pessi</option>
+        <option value="cam_ep" >cam ep</option>
+        <option value="sting" >sting</option>
+        <option value="bo_huc" >bo huc</option>
+    </select>
+    <p>so luong nuoc 
+        <input type="number" id="sln" onkeyup="sln()">
+    </p>
+    <p>gia:
+        <span id="gia"></span>
+    </p>
+    <br>
+    <select id="trai_cay">
+        <option value="trai_cay_nho" >trai cay nho</option>
+        <option value="trai_cay_lon" >trai cay lon</option>
+        <option value="buoi" >buoi</option>
+    </select>
+    <p>so luong trai cay
+        <input type="number" id="sltc" onkeyup="sltc()">
+    </p>
+    <p>gia:
+        <span id="giatc"></span>
+    </p>
+    <p>tien cua ban: <input type="number" id="tien"></p>
+
+    <p>ban da mua: <span id="a"></span></p>
+    <button onclick="e()">ok</button>
+
+<script src="./a.js"></script>
+</body>
+</html>
